@@ -7,7 +7,7 @@ import static org.junit.Assert.assertThat;
 /**
  * Class DummyBotTest.
  * @author sbulygin.
- * @since 02.08.2018.
+ * @since 22.03.2020.
  * @version 1.0.
  */
 public class DummyBotTest {

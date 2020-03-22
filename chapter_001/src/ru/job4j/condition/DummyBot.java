@@ -3,7 +3,7 @@ package ru.job4j.condition;
 /**
  * Class DummyBot.
  * @author sbulygin.
- * @since 022.03.2020.
+ * @since 22.03.2020.
  * @version 1.0.
  */
 public class DummyBot {

@@ -7,10 +7,9 @@ import static org.junit.Assert.assertThat;
 
 /**
  * Class MaxTest
- *
  * @author sbulygin
  * @version 1.0
- * @since 31.10.18
+ * @since 22.03.2020
  */
 public class MaxTest {
 

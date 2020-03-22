@@ -3,8 +3,8 @@ package ru.job4j.condition;
 /**
  * Class Max
  * @author sbulygin
+ * @since 22.03.2020
  * @version 1.0
- * @since 22.03.20
  */
 
 public class Max {
