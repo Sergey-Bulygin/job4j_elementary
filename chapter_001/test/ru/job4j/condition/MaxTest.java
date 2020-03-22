@@ -6,7 +6,7 @@ import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
 /**
- * Class MaxTest
+ * Class MaxTest.
  * @author sbulygin
  * @version 1.0
  * @since 22.03.2020

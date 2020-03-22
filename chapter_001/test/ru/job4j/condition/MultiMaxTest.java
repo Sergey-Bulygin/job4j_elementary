@@ -5,7 +5,7 @@ import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.assertThat;
 
 /**
- * Class MultiMaxTest
+ * Class MultiMaxTest.
  * @author sbulygin
  * @version 1.0
  * @since 22.03.2020

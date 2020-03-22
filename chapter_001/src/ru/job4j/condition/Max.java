@@ -1,7 +1,7 @@
 package ru.job4j.condition;
 
 /**
- * Class Max
+ * Class Max.
  * @author sbulygin
  * @since 22.03.2020
  * @version 1.0
