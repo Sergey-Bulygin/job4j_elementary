@@ -30,7 +30,5 @@ public class MaxTest {
         int result = Max.findMaximum(7, 7);
         assertThat(result, is(7));
     }
-
-
 }
 

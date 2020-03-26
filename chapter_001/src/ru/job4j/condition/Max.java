@@ -18,6 +18,4 @@ public class Max {
     public static int findMaximum(int fist, int second) {
         return fist > second ? fist : second;
     }
-
-
 }
