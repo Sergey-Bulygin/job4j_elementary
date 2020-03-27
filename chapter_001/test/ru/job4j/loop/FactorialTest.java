@@ -49,7 +49,4 @@ public class FactorialTest {
         int expect = 1;
         assertThat(result, is(expect));
     }
-
-
-
 }
