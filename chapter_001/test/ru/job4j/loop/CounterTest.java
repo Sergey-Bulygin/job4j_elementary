@@ -6,7 +6,7 @@ import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.assertThat;
 
 /**
- * Class TriangleTest.
+ * Class CounterTest.
  * @author sbulygin.
  * @since 26.03.2020.
  * @version 1.0.
