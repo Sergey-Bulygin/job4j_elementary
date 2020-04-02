@@ -6,6 +6,13 @@ package ru.job4j.array;
  * @project job4j_elementary
  */
 public class Square {
+
+    /**
+     * The method fills the array with values ​​from 1
+     * to the input parameter raised to a power.
+     * @param bound last value in range from 1.
+     * @return array of values.
+     */
     public static int[] calculate(int bound) {
         int[] rst = new int[bound];
         for (int index = 0; index < bound; index++) {

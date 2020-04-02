@@ -10,6 +10,7 @@ import static org.junit.Assert.assertThat;
  * @project job4j_elementary
  */
 public class SquareTest {
+
     @Test
     public void whenBound3Then014() {
         int bound = 3;
