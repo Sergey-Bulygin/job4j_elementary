@@ -54,4 +54,20 @@ public class MatrixCheck {
         }
         return rsl;
     }
+
+    /**
+     * Method for checking the winning situation in the game is sokoban.
+     * @param board matrix.
+     * @return boolean result.
+     */
+    public static boolean isWin(char[][] board) {
+        boolean result = false;
+        for (int index = 0; index < board.length; index++) {
+            if (monoHorizontal(board, index) || monoVertical(board, index)) {
+                result = true;
+                break;
+            }
+        }
+        return result;
+    }
 }
