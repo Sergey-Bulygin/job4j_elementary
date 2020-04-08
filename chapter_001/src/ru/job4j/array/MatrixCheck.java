@@ -41,4 +41,17 @@ public class MatrixCheck {
         }
         return result;
     }
+
+    /**
+     *  Method check diagonal matrix.
+     * @param board matrix.
+     * @return boolean result.
+     */
+    public static char[] extractDiagonal(char[][] board) {
+        char[] rsl = new char[board.length];
+        for (int index = 0; index < board.length; index++) {
+            rsl[index] = board[index][index];
+        }
+        return rsl;
+    }
 }
