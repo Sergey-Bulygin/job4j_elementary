@@ -30,5 +30,23 @@ public class MaxTest {
         int result = Max.findMaximum(7, 7);
         assertThat(result, is(7));
     }
+
+    @Test
+    public void whenThreeValueMoreFirst() {
+        int result = Max.findMaximum(20, 8, 5);
+        assertThat(result, is(20));
+    }
+
+    @Test
+    public void whenThreeValueAndFirstEqualSecondMoreAny() {
+        int result = Max.findMaximum(12, 12, 9);
+        assertThat(result, is(12));
+    }
+
+    @Test
+    public void whenFourValueAndFirstEqualSecondMoreAny() {
+        int result = Max.findMaximum(12, 12, 9, 5);
+        assertThat(result, is(12));
+    }
 }
 
