@@ -21,11 +21,8 @@ public class MagicBall {
     public static final String ANSI_CYAN = "\u001B[36m";
     public static final String ANSI_RED = "\u001B[31m";
 
-    /**
-     * Point of entry.
-     * @param args array strings.
-     */
-    public static void main(String[] args) {
+
+    private static void oracle() {
         Scanner input = new Scanner(System.in);
         greeting();
         boolean run = true;
@@ -85,6 +82,14 @@ public class MagicBall {
         System.out.println(ANSI_GREEN + "|--------------- 2 - No questions.-----------------|" + ANSI_RESET);
         System.out.println(ANSI_GREEN + "****************************************************" + ANSI_RESET);
         System.out.print(ANSI_PURPLE + "Enter number: " + ANSI_RESET);
+    }
+
+    /**
+     * Point of entry.
+     * @param args array strings.
+     */
+    public static void main(String[] args) {
+        oracle();
     }
 }
 
