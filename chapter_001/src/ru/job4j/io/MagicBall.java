@@ -59,7 +59,6 @@ public class MagicBall {
     private static void answers(String name) {
         int answer = new Random().nextInt(3);
         if (answer == 0) {
-            System.out.println("+----+----+----+----+----+----+----+");
             System.out.println(String.format(ANSI_YELLOW + "|Your question - %s <---> Answer - Yes|"
                     + ANSI_RESET, name));
         }
