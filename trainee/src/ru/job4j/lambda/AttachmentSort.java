@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 
+
 /**
  * Class   AttachmentSort
  * Created 07/05/2020 - 20:46
@@ -33,5 +34,7 @@ public class AttachmentSort {
         System.out.println(attachments);
         attachments.sort(nameComparator);
         System.out.println(attachments);
+
+
     }
 }
