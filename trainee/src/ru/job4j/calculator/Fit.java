@@ -23,7 +23,6 @@ public class Fit {
      * @return ideal weight.
      */
     public double manWeight(double height) {
-
         return (height - CONST_MAN) * 1.15;
     }
 
@@ -33,7 +32,6 @@ public class Fit {
      * @return ideal weight.
      */
     public double womanWeight(double height) {
-
         return (height - CONST_WOMAN) * 1.15;
     }
 }
